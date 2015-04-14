@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183087CC1ADCEDD300D0E2E8 /* CJLoadLinkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183087CB1ADCEDD300D0E2E8 /* CJLoadLinkController.m */; };
+		183087D31ADD08FE00D0E2E8 /* UIColor+CJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 183087D21ADD08FE00D0E2E8 /* UIColor+CJ.m */; };
+		18CD08161ADCC66700F36685 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD08151ADCC66700F36685 /* main.m */; };
+		18CD08191ADCC66700F36685 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD08181ADCC66700F36685 /* AppDelegate.m */; };
+		18CD081C1ADCC66700F36685 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD081B1ADCC66700F36685 /* ViewController.m */; };
+		18CD08211ADCC66700F36685 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CD08201ADCC66700F36685 /* Images.xcassets */; };
+		18CD08241ADCC66700F36685 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CD08221ADCC66700F36685 /* LaunchScreen.xib */; };
+		18CD08301ADCC66700F36685 /* LinkLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD082F1ADCC66700F36685 /* LinkLabelDemoTests.m */; };
+		18CD083C1ADCC69500F36685 /* CJLinkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD083B1ADCC69500F36685 /* CJLinkLabel.m */; };
+		18CD08401ADCC6D700F36685 /* CJLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD083F1ADCC6D700F36685 /* CJLink.m */; };
+		18CD08431ADCC73F00F36685 /* CJRegexResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD08421ADCC73F00F36685 /* CJRegexResult.m */; };
+		E6B5E2A2D7FF239740A22408 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94443B2C3397B3A02C74EA2 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CD082A1ADCC66700F36685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CD08081ADCC66700F36685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CD080F1ADCC66700F36685;
+			remoteInfo = LinkLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183087CA1ADCEDD300D0E2E8 /* CJLoadLinkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJLoadLinkController.h; sourceTree = "<group>"; };
+		183087CB1ADCEDD300D0E2E8 /* CJLoadLinkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJLoadLinkController.m; sourceTree = "<group>"; };
+		183087D11ADD08FE00D0E2E8 /* UIColor+CJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CJ.h"; sourceTree = "<group>"; };
+		183087D21ADD08FE00D0E2E8 /* UIColor+CJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CJ.m"; sourceTree = "<group>"; };
+		18CD08101ADCC66700F36685 /* LinkLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CD08141ADCC66700F36685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CD08151ADCC66700F36685 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CD08171ADCC66700F36685 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18CD08181ADCC66700F36685 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18CD081A1ADCC66700F36685 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18CD081B1ADCC66700F36685 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18CD08201ADCC66700F36685 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18CD08231ADCC66700F36685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18CD08291ADCC66700F36685 /* LinkLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CD082E1ADCC66700F36685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CD082F1ADCC66700F36685 /* LinkLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkLabelDemoTests.m; sourceTree = "<group>"; };
+		18CD083A1ADCC69500F36685 /* CJLinkLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJLinkLabel.h; sourceTree = "<group>"; };
+		18CD083B1ADCC69500F36685 /* CJLinkLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJLinkLabel.m; sourceTree = "<group>"; };
+		18CD083E1ADCC6D700F36685 /* CJLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJLink.h; sourceTree = "<group>"; };
+		18CD083F1ADCC6D700F36685 /* CJLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJLink.m; sourceTree = "<group>"; };
+		18CD08411ADCC73F00F36685 /* CJRegexResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJRegexResult.h; sourceTree = "<group>"; };
+		18CD08421ADCC73F00F36685 /* CJRegexResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJRegexResult.m; sourceTree = "<group>"; };
+		664A68B8109B44AB37FC4F10 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E94443B2C3397B3A02C74EA2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E902D036D32A63EB9AC6AB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CD080D1ADCC66700F36685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B5E2A2D7FF239740A22408 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CD08261ADCC66700F36685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0018C89B69818E1BC353B2FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E94443B2C3397B3A02C74EA2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		183087CD1ADD084300D0E2E8 /* CateGory */ = {
+			isa = PBXGroup;
+			children = (
+				183087D11ADD08FE00D0E2E8 /* UIColor+CJ.h */,
+				183087D21ADD08FE00D0E2E8 /* UIColor+CJ.m */,
+			);
+			path = CateGory;
+			sourceTree = "<group>";
+		};
+		18CD08071ADCC66700F36685 = {
+			isa = PBXGroup;
+			children = (
+				18CD08121ADCC66700F36685 /* LinkLabelDemo */,
+				18CD082C1ADCC66700F36685 /* LinkLabelDemoTests */,
+				18CD08111ADCC66700F36685 /* Products */,
+				DC658F0B3D7C4583ABCB88E8 /* Pods */,
+				0018C89B69818E1BC353B2FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18CD08111ADCC66700F36685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CD08101ADCC66700F36685 /* LinkLabelDemo.app */,
+				18CD08291ADCC66700F36685 /* LinkLabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CD08121ADCC66700F36685 /* LinkLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18CD08391ADCC68400F36685 /* LinkLabel */,
+				18CD08171ADCC66700F36685 /* AppDelegate.h */,
+				18CD08181ADCC66700F36685 /* AppDelegate.m */,
+				18CD081A1ADCC66700F36685 /* ViewController.h */,
+				18CD081B1ADCC66700F36685 /* ViewController.m */,
+				183087CA1ADCEDD300D0E2E8 /* CJLoadLinkController.h */,
+				183087CB1ADCEDD300D0E2E8 /* CJLoadLinkController.m */,
+				18CD08201ADCC66700F36685 /* Images.xcassets */,
+				18CD08221ADCC66700F36685 /* LaunchScreen.xib */,
+				18CD08131ADCC66700F36685 /* Supporting Files */,
+			);
+			path = LinkLabelDemo;
+			sourceTree = "<group>";
+		};
+		18CD08131ADCC66700F36685 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CD08141ADCC66700F36685 /* Info.plist */,
+				18CD08151ADCC66700F36685 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18CD082C1ADCC66700F36685 /* LinkLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18CD082F1ADCC66700F36685 /* LinkLabelDemoTests.m */,
+				18CD082D1ADCC66700F36685 /* Supporting Files */,
+			);
+			path = LinkLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		18CD082D1ADCC66700F36685 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CD082E1ADCC66700F36685 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18CD08391ADCC68400F36685 /* LinkLabel */ = {
+			isa = PBXGroup;
+			children = (
+				183087CD1ADD084300D0E2E8 /* CateGory */,
+				18CD083D1ADCC6B200F36685 /* Model */,
+				18CD083A1ADCC69500F36685 /* CJLinkLabel.h */,
+				18CD083B1ADCC69500F36685 /* CJLinkLabel.m */,
+			);
+			path = LinkLabel;
+			sourceTree = "<group>";
+		};
+		18CD083D1ADCC6B200F36685 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18CD083E1ADCC6D700F36685 /* CJLink.h */,
+				18CD083F1ADCC6D700F36685 /* CJLink.m */,
+				18CD08411ADCC73F00F36685 /* CJRegexResult.h */,
+				18CD08421ADCC73F00F36685 /* CJRegexResult.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC658F0B3D7C4583ABCB88E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				664A68B8109B44AB37FC4F10 /* Pods.debug.xcconfig */,
+				F3E902D036D32A63EB9AC6AB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CD080F1ADCC66700F36685 /* LinkLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CD08331ADCC66700F36685 /* Build configuration list for PBXNativeTarget "LinkLabelDemo" */;
+			buildPhases = (
+				5DFC90186910C21726CE73C1 /* Check Pods Manifest.lock */,
+				18CD080C1ADCC66700F36685 /* Sources */,
+				18CD080D1ADCC66700F36685 /* Frameworks */,
+				18CD080E1ADCC66700F36685 /* Resources */,
+				E36F09519DC30B176A0BD38D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkLabelDemo;
+			productName = LinkLabelDemo;
+			productReference = 18CD08101ADCC66700F36685 /* LinkLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18CD08281ADCC66700F36685 /* LinkLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CD08361ADCC66700F36685 /* Build configuration list for PBXNativeTarget "LinkLabelDemoTests" */;
+			buildPhases = (
+				18CD08251ADCC66700F36685 /* Sources */,
+				18CD08261ADCC66700F36685 /* Frameworks */,
+				18CD08271ADCC66700F36685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CD082B1ADCC66700F36685 /* PBXTargetDependency */,
+			);
+			name = LinkLabelDemoTests;
+			productName = LinkLabelDemoTests;
+			productReference = 18CD08291ADCC66700F36685 /* LinkLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CD08081ADCC66700F36685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CJ;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = com.huazhi;
+				TargetAttributes = {
+					18CD080F1ADCC66700F36685 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					18CD08281ADCC66700F36685 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 18CD080F1ADCC66700F36685;
+					};
+				};
+			};
+			buildConfigurationList = 18CD080B1ADCC66700F36685 /* Build configuration list for PBXProject "LinkLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CD08071ADCC66700F36685;
+			productRefGroup = 18CD08111ADCC66700F36685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CD080F1ADCC66700F36685 /* LinkLabelDemo */,
+				18CD08281ADCC66700F36685 /* LinkLabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CD080E1ADCC66700F36685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CD08241ADCC66700F36685 /* LaunchScreen.xib in Resources */,
+				18CD08211ADCC66700F36685 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CD08271ADCC66700F36685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DFC90186910C21726CE73C1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E36F09519DC30B176A0BD38D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CD080C1ADCC66700F36685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CD081C1ADCC66700F36685 /* ViewController.m in Sources */,
+				18CD08431ADCC73F00F36685 /* CJRegexResult.m in Sources */,
+				183087CC1ADCEDD300D0E2E8 /* CJLoadLinkController.m in Sources */,
+				18CD08191ADCC66700F36685 /* AppDelegate.m in Sources */,
+				183087D31ADD08FE00D0E2E8 /* UIColor+CJ.m in Sources */,
+				18CD08401ADCC6D700F36685 /* CJLink.m in Sources */,
+				18CD08161ADCC66700F36685 /* main.m in Sources */,
+				18CD083C1ADCC69500F36685 /* CJLinkLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CD08251ADCC66700F36685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CD08301ADCC66700F36685 /* LinkLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CD082B1ADCC66700F36685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CD080F1ADCC66700F36685 /* LinkLabelDemo */;
+			targetProxy = 18CD082A1ADCC66700F36685 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18CD08221ADCC66700F36685 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CD08231ADCC66700F36685 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CD08311ADCC66700F36685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18CD08321ADCC66700F36685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CD08341ADCC66700F36685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664A68B8109B44AB37FC4F10 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = LinkLabelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18CD08351ADCC66700F36685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E902D036D32A63EB9AC6AB /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = LinkLabelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18CD08371ADCC66700F36685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LinkLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkLabelDemo.app/LinkLabelDemo";
+			};
+			name = Debug;
+		};
+		18CD08381ADCC66700F36685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LinkLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkLabelDemo.app/LinkLabelDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CD080B1ADCC66700F36685 /* Build configuration list for PBXProject "LinkLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CD08311ADCC66700F36685 /* Debug */,
+				18CD08321ADCC66700F36685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CD08331ADCC66700F36685 /* Build configuration list for PBXNativeTarget "LinkLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CD08341ADCC66700F36685 /* Debug */,
+				18CD08351ADCC66700F36685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CD08361ADCC66700F36685 /* Build configuration list for PBXNativeTarget "LinkLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CD08371ADCC66700F36685 /* Debug */,
+				18CD08381ADCC66700F36685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CD08081ADCC66700F36685 /* Project object */;
+}
